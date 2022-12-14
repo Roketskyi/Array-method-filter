@@ -7,6 +7,6 @@ const people = [
     { name: 'Тарас', age: 28, money: 10000 }
 ];
 
-const newObj = people.filter(acc => {if (acc.age >= 27) return true})
+const newObj = people.filter(acc => acc.age >= 27)
 
 console.log(newObj)
